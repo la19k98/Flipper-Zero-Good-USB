@@ -1,0 +1,16 @@
+REM IF you are going to execute this scrip make sure to have everything saved.
+DEFAULT_DELAY 500
+GUI s
+STRING cmd
+RIGHT
+DOWN
+ENTER
+LEFT
+SPACE
+DELAY 1000
+STRING chkdsk C: /f /r /x
+ENTER
+STRING Y
+ENTER
+STRING shutdown -r
+ENTER
